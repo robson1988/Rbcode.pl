@@ -1,0 +1,11 @@
+#E0F8D5- bia�y
+#39C416 - zielony
+#161E11 - czarny
+#004D72 - niebiski
+
+
+inny zestaw:
+rgba(50,48,43,1) - szaro/brazowy
+rgba(27,26,23,1) - czarny
+rgba(114,171,0,1) - zielony
+rgba(237,237,229,1) - kremowy
