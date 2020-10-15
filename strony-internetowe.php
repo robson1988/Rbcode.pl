@@ -109,10 +109,10 @@
 	</section>
 	</div>
  </div> <!-- === Main Section End === -->
-</div><!-- === Container End === -->
+
 
 	<!-- === Contact Section === -->
-			<div class="row m-0">
+		<div class="row m-0">
 			<div class="col-12 contact-line" id="kontakt">
 				<div class="row">
 						<div class="col-sm-12 col-md-6 ">
@@ -128,7 +128,7 @@
 				</div>
 			</div>
 		</div>
-
+</div><!-- === Container End === -->
 <?php
 include_once "includes/footer-inc.php";
 include_once "includes/cookies-inc.php";
