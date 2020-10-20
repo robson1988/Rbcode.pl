@@ -4,8 +4,8 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<title>Tworzenie stron internetowych Stalowa Wola | Rbcode.pl</title>
-	<meta name="description" content="Tworzenie stron internetowych i pozycjonowanie stron Stalowa Wola. Profesjonalne projektowanie stron www, tworzenie stron www dla firm i landing page!">
+	<title>Pozycjonowanie i tworzenie stron internetowych Stalowa Wola | Rbcode.pl</title>
+	<meta name="description" content="Tworzenie stron internetowych i pozycjonowanie stron Stalowa Wola. Profesjonalne projektowanie stron www,  strony internetowe dla firm i landing page!">
 	<meta name="keywords" content="responsywne strony internetowe, kodowanie mailingów,kodowanie szablonu html,kodowanie szablonu psd do html i css, pozycjonowanie stron internetowych,pozycjonowanie stalowa wola, pozycjonowanie stron stalowa wola, strony internetowe stalowa wola, strony internetowe sandomierz, strony www stalowa wola, strony internetowe tarnobrzeg, tworzenie stron internetowych stalowa wola, strony internetowe stalowa wola">
 	<link rel="canonical" href="https://rbcode.pl">
 	<script type="application/ld+json">
@@ -190,7 +190,7 @@
         <div class="col-md-3 col-sm-6">
             <div class="serviceBox">
                 <div class="service-icon">
-									<a href="https://www.w3.org/" target="_blank" rel="nofollow" rel="noreferrer" title="Strona W3C">
+									<a href="https://www.w3.org/" target="_blank" rel="nofollow noopener" title="Strona W3C">
                     <p class="test">W3C</p>
 									</a>
                 </div>

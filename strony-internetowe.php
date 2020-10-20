@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
 	<title>Tworzymy strony www | Strony internetowe dla firm | Rbcode.pl</title>
-	<meta name="description" content="Nowoczesne i responsywne strony www dla twojej firmy. Tworzymy strony internetowe w Stalowej Woli, Tarnobrzegu, Sandomierzu i Nisku. Sprawdź ofertę!">
+	<meta name="description" content="Nowoczesne i responsywne strony www dla twojej firmy. Tworzymy strony internetowe w Stalowej Woli, Tarnobrzegu, Sandomierzu i Nisku. Sprawdź naszą ofertę!">
 	<meta name="keywords" content="tworzenie stron www, strony internetowe, strony internetowe dla firm, strona internetowa, tworzenie stron internetowych, stworzenie strony internetowej, responsywna strona internetowa">
 	<link rel="canonical" href="https://rbcode.pl/strony-internetowe">
 	<script type="application/ld+json">

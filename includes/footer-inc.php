@@ -58,6 +58,7 @@
 		</div>
 	</div>
 </div> <!-- === Footer End === -->
+<?php include_once "includes/cookies-inc.php";?>
 </div> <!-- === Page Content End  === -->
 
 <!-- === Scripts  === -->

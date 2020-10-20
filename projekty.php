@@ -16,4 +16,3 @@ $showRealization = new ProjectsView;
 $showRealization->showOneProject($urlSlug);
 
 include_once "includes/footer-inc.php";
-include_once "includes/cookies-inc.php";
