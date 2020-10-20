@@ -1,3 +1,6 @@
+<!-- === Scroll to top === -->
+<button onclick="topFunction()" id="go-to-top"><i class="fas fa-arrow-up"></i></button>
+
 <!-- === Preloader === -->
 <div id="preloader">
   <div class="loader">

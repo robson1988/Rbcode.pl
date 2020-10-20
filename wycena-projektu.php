@@ -80,7 +80,7 @@
 											 <h3 class="title">Basic</h3>
 									 </div>
 									 <div class="price-value">
-											 <span class="amount">od 1499 zł</span>
+											 <span class="amount">od 1299 zł</span>
 											 <span class="duration">Za Całość</span>
 									 </div>
 									 <ul class="pricing-content">
@@ -177,58 +177,23 @@
 			 </div>
 		  </div>
 
-	 <div class="row">
-		 <div class="col-12 pricing-section">
-			<h2 class="section-title font-kanit">Kodo<span class="one-letter">w</span>anie mailingów - cennik</h2>
-			<hr class="line">
-			<p class="pl-3 pr-3 font-merriweather">
-				Kodujemy <strong>mailing reklamowy</strong>, który w twojej kampanii może mieć formę newslettera, podziękowania za zakupy, oferty, informacji, etc. <strong>Cena</strong> zakodowania pojedyńczej wiadomości e-mail zaczyna się od 150 zł netto. W przypadku nawiązania dłuższej współpracy cena każdego następnego mailingu spada do 120 zł netto.</p>
-				<table class="col-10 mx-auto table table-sm table-responsive-md text-center">
-				    <tr>
-				      <th style="width:50%;">Kodowanie pierwszej wiadomości</th>
-				      <th style="width:50%;">Każda następna</th>
-				    </tr>
-				    <tr>
-				      <td>150 zł/netto</td>
-				      <td>120 zł/netto</td>
-				    </tr>
-				</table>
-				<p class="pl-3 pr-3 font-merriweather">
-				Wiadomości e-mail kodujemy na podstawie dostarczonego pliku PSD (opcja preferowana) lub na podstawie projektu na którym mamy się inspirować (czas zakodowania mailingu może się w takiej sytuacji wydłużyć). Wszelkie szczegóły i ostateczna <strong>cena mailingu</strong> jest ustalana indywidualnie.<br>
-				Istnieje możliwość <strong>wysyłki mailingu</strong>, który przygotujemy. Wysyłkę mailingu prowadzimy na podstawie dostarczonej przez klienta bazy adresów e-mail. Bazy z adresami e-mail są u nas całkowicie bezpieczne, nie przetwarzamy ich, nie przechowujemy oraz nie udostępniamy żadnym zewnętrznym firmom. <strong>Cennik wysyłki mailingu</strong> zależy od ilości adresów e-mail.
-		  	</p>
-				<table class="col-10 mx-auto table table-sm table-responsive-md text-center mb-5">
-						<tr>
-							<th scope="col">Ilość adresów</th>
-							<th scope="col">0 - 200</th>
-							<th scope="col">201 - 500</th>
-							<th scope="col">501 - 1000</th>
-							<th scope="col">1001 - 2000</th>
-							<th scope="col">Powyżej 2001</th>
-						</tr>
-						<tr>
-							<th scope="row">Cena</th>
-							<td>20 zł/netto</td>
-							<td>40 zł/netto</td>
-							<td>60 zł/netto</td>
-							<td>100 zł/netto</td>
-							<td>140 zł/netto</td>
-						</tr>
-				</table>
-				<h2 class="section-title font-kanit">Ory<span class="one-letter">g</span>inalny szablon odpowiedzi</h2>
-				<p class="pl-3 pr-3 font-merriweather">
-					Jeśli używasz poczty Gmail, możesz skorzystać z szablonu odpowiedzi, który będzie wysyłany do Twoich klientów. Możesz zawrzeć w nim m.in. najważniejsze informacje kontaktowe, swoje logo oraz linki do najnowszych ofert i promocji. Tak stworzona wiadomość to oryginalny <strong>mailing reklamowy</strong> skierowany do szerokiego grona klientów i dostawców z którymi korespondujesz. Takie rozwiązanie sprawi, że twoja firma będzie postrzegana za bardziej profesjonalną, zwiększych swoją rozpoznawalność i w najlepszym wypadku poprawisz swoją sprzedaż.
-		  	</p>
-				<table class="col-10 mx-auto table table-sm table-responsive-md text-center">
-						<tr>
-							<th scope="col">Cena stworzenia i wdrożenia szablonu odpowiedzi Gmail</th>
-						</tr>
-						<tr>
-							<td>150 zł/netto</td>
-						</tr>
-				</table>
-			</div>
-	</div>
+			<div class="row">
+	 		 <div class="col-12 pricing-section">
+	 			<h2 class="section-title font-kanit">Kodo<span class="one-letter">w</span>anie mailingów</h2>
+	 			<hr class="line">
+	 			<p class="pl-3 pr-3 font-merriweather">
+	 				Kodujemy <strong>mailing reklamowy</strong>, który w twojej kampanii może mieć formę newslettera, podziękowania za zakupy, oferty, informacji, etc. <strong>Cena</strong> zakodowania pojedyńczej wiadomości e-mail jest ustalana indywidualnie w zależności od stopnia skomplikowania. W przypadku nawiązania dłuższej współpracy cena każdego następnego mailingu jest objęta rabatem 15%. </p>
+
+	 				<p class="pl-3 pr-3 font-merriweather">
+	 				Wiadomości e-mail kodujemy na podstawie dostarczonego pliku PSD (opcja preferowana) lub na podstawie projektu na którym mamy się inspirować (czas zakodowania mailingu może się w takiej sytuacji wydłużyć). Wszelkie szczegóły i ostateczna <strong>cena mailingu</strong> jest ustalana indywidualnie.<br>
+	 				Istnieje możliwość <strong>wysyłki mailingu</strong>, który przygotujemy. Wysyłkę mailingu prowadzimy na podstawie dostarczonej przez klienta bazy adresów e-mail. Bazy z adresami e-mail są u nas całkowicie bezpieczne, nie przetwarzamy ich, nie przechowujemy oraz nie udostępniamy żadnym zewnętrznym firmom. <strong>Cennik wysyłki mailingu</strong> zależy od ilości adresów e-mail.
+	 		  	</p>
+	 				<h2 class="section-title font-kanit">Ory<span class="one-letter">g</span>inalny szablon odpowiedzi</h2>
+	 				<p class="pl-3 pr-3 font-merriweather">
+	 					Jeśli używasz poczty Gmail, możesz skorzystać z szablonu odpowiedzi, który będzie wysyłany do Twoich klientów. Możesz zawrzeć w nim m.in. najważniejsze informacje kontaktowe, swoje logo oraz linki do najnowszych ofert i promocji. Tak stworzona wiadomość to oryginalny <strong>mailing reklamowy</strong> skierowany do szerokiego grona klientów i dostawców z którymi korespondujesz. Takie rozwiązanie sprawi, że twoja firma będzie postrzegana za bardziej profesjonalną, zwiększysz swoją rozpoznawalność i w najlepszym wypadku poprawisz swoją sprzedaż.
+	 		  	</p>
+	 			</div>
+	 	</div>
 
 	<div class="row">
 		<div class="col-12 pricing-section">

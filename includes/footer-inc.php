@@ -43,7 +43,7 @@
 				<div class="card-body">
 					<h3 class="card-title h-smaller">O nas</h3>
 					<ul class="footer-list">
-						<li><h4><a href="#" title="Wykonane przez nas projekty">Realizacje</a></h4></li>
+						<li><h4><a href="/realizacje-stron-internetowych" title="Wykonane przez nas projekty">Realizacje</a></h4></li>
 						<li><h4><a href="#" title="Często zadawane pytnia">FAQ</a></h4></li>
 						<li><h4><a href="#" title="Polityka prywatności">Polityka prywatności</a></h4></li>
 						<li><a href="https://www.facebook.com/Rbcode.Strony.Internetowe/" title="Śledź nas na facebooku"><i class="fab fa-facebook-f"></i></a></li>
