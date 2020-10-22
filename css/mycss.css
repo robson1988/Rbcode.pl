@@ -704,14 +704,12 @@ display:inline-block;margin-left:25px;margin-bottom:0;
   }
 }
 
-
+/*Pozycjonowanie stron*/
+.seo-page-section{padding:85px 0 15px 0;}
 
 /*Projekty stron internetowych*/
 .realization-card{border:none;color:#000;}
-.card-img-top {
-  height: 300px;
-  object-fit: contain;
-}
+.card-img-top {height: 300px;object-fit: contain;}
 
 a.realization-title{color:#000;}
 a.realization-title:hover{color:rgba(114,171,0,1);}
@@ -810,7 +808,7 @@ h5.footer-title {text-align:center;}
 ::-webkit-scrollbar-thumb {display:none;}
 /*Navbar*/
 .nav-item {line-height:60px; height:65px;}
-.about-us-section, .what-section, .responsive-section, .framework-section, .pricing-section{padding:30px 0;}
+.about-us-section, .what-section, .responsive-section, .framework-section, .pricing-section, .seo-page-section{padding:30px 0;}
 .projects-title h2{font-size: 2em; line-height: 100px;}
 .baner-inside h2 {font-size:24px;}
 .footer .card .card-body, .footer .card .card-body ul.footer-list {text-align:center;}
