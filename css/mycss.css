@@ -102,8 +102,8 @@ i.fa-times{color:rgb(252, 0, 21,1);padding-right:5px;}
 .navbar-nav{text-align:center;}
 .nav-item {display:block;padding:0 20px;position:relative; transition: all .2s linear;}
 .nav-item:hover:nth-child(1), .nav-item:hover:nth-child(2),.nav-item:hover:nth-child(3){background-color: rgba(114,171,0,1);}
-.nav-item .nav-link  {display:inline;padding:0;transition: 0.3s ease;color:rgba(237,237,229,1);font-weight:900;}
-a.nav-link-phone {color:rgba(237,237,229,1);font-weight:900;}
+.nav-item .nav-link  {display:inline;padding:0;transition: 0.3s ease;color:rgba(237,237,229,1);font-weight:900;text-shadow:1px 1px #000;}
+a.nav-link-phone {color:rgba(237,237,229,1);font-weight:900;text-shadow:1px 1px #000;}
 .dropdown-menu {background-color: rgba(114,171,0,1);border-radius: 0;margin:0;border:none; transition: all .2s linear;}
 li.nav-item.dropdown {z-index:99;}
 a.dropdown-item {height: 40px; line-height: 30px; font-weight: 600;color:rgba(237,237,229,1);}
@@ -222,9 +222,18 @@ hr.line{margin:5px 0 5px 16px; border:1px solid rgba(114,171,0,1);width:20%; }
 /*SEO section*/
 
 /*Baner section with paralax effect*/
+.baner-section-seo {
+background-image: url("../images/pozycjonowanie stron internetowych.jpg");background-position: center;background-size: contain;background-attachment: scroll;
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size:cover; background-repeat: no-repeat;height:600px;}
+.baner-section-two {
+background-image: url("../images/tworzenie stron internetowych.jpg");background-position: center;background-size: contain;background-attachment: scroll;
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size:cover; background-repeat: no-repeat;height:600px;}
+.baner-section-three {
+background-image: url("../images/profesjonalne strony internetowe.jpg");background-position: center;background-size: contain;background-attachment: scroll;
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size:cover; background-repeat: no-repeat;height:600px;}
 .baner-section {
 background-image: url("../images/technologie-których-uzywamy.jpg");background-position: bottom;background-size: contain;background-attachment: scroll;
--webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size:cover; background-repeat: no-repeat;min-height:550px; margin-top:-85px;}
+-webkit-background-size: cover;-moz-background-size: cover;-o-background-size: cover;background-size:cover; background-repeat: no-repeat;height:600px; margin-top:-85px;}
 .baner-inside {max-width:1140px; height:300px; margin:300px 0 30px 0; margin-left:auto;margin-right:auto;}
 .baner-inside h2, .baner-inside h1 {font-weight:800;font-size:36px;text-transform:uppercase;color:#fff;}
 .baner-inside p.our-partners{font-size:16px;color:#fff;}
