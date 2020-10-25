@@ -74,7 +74,7 @@ session_start();
 
   				    //Recipients
   				    $mail->setFrom('office.rbcode@gmail.com', 'Profesjonalne strony internetowe | Rbcode.pl');
-  				    $mail->addAddress('robert.bajoo@gmail.com');   			    // Add a recipient
+  				    $mail->addAddress('office.rbcode@gmail.com');   			    // Add a recipient
   				    $mail->addReplyTo($email, $name);
 
   				    // Content

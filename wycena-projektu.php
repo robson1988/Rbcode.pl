@@ -215,19 +215,9 @@
 				</div>
 			</div>
 			<div class="form-row">
-			<div class="col-md-8 form-group">
-				<select id="subject" class="form-control" name="subject" required oninvalid="this.setCustomValidity('Proszę wybrać temat wiadomości')" oninput="this.setCustomValidity('')">
-				<option value="">Wybierz temat wiadomości...</option>
-				<option value="Blog">Blog</option>
-				<option value="Kodowanie mailingów">Kodowanie mailingów</option>
-				<option value="Kodowanie z PSD">Kodowanie z PSD</option>
-				<option value="Landing Page">Landing Page</option>
-				<option value="Strona internetowa - BASIC">Strona internetowa - BASIC</option>
-				<option value="Strona internetowa - STANDARD">Strona internetowa - STANDARD</option>
-				<option value="Strona internetowa - PREMIUM">Strona internetowa - PREMIUM</option>
-				<option value="Inny">Inny</option>
-			</select>
-			</div>
+				<div class="col-md-8 form-group">
+					<input  type="Text" id="subject" class="form-control" name="subject" aria-label="Wpisz temat wiadomości" placeholder="Temat wiadomości" required oninvalid="this.setCustomValidity('Proszę uzupełnić temat wiadomości')" oninput="this.setCustomValidity('')">
+				</div>
 			<div class="col-md-4 form-group">
 				<input type="text" class="form-control" name="phone" id="phone" aria-label="Podaj swój numer telefonu" placeholder="Numer telefonu" required oninvalid="this.setCustomValidity('Podaj numer telefonu')" oninput="this.setCustomValidity('')">
 			</div>

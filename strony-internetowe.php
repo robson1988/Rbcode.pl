@@ -4,9 +4,9 @@
 <head>
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" >
-	<title>Tworzymy strony www | Strony internetowe dla firm | Rbcode.pl</title>
-	<meta name="description" content="Nowoczesne i responsywne strony www dla twojej firmy. Tworzymy strony internetowe w Stalowej Woli, Tarnobrzegu, Sandomierzu i Nisku. Sprawdź naszą ofertę!">
-	<meta name="keywords" content="tworzenie stron www, strony internetowe, strony internetowe dla firm, strona internetowa, tworzenie stron internetowych, stworzenie strony internetowej, responsywna strona internetowa">
+	<title>Tworzenie stron www | Tanie strony www | Rbcode.pl</title>
+	<meta name="description" content="Tworzymy nowoczesne i responsywne strony www zoptymalizowane pod wyszukiwarki. Tanie strony www zgodne z potrzebami klienta. Sprawdź nasze realizacje!">
+	<meta name="keywords" content="tworzenie stron www, tanie strony www, strony internetowe, strony internetowe dla firm, strona internetowa, tworzenie stron internetowych, stworzenie strony internetowej, responsywna strona internetowa">
 	<link rel="canonical" href="https://rbcode.pl/strony-internetowe">
 	<script type="application/ld+json">
 		 {
@@ -36,11 +36,11 @@
 
 <!-- === Banner Section  === -->
 	<div class="row m-0">
-		<div class="col-12 baner-section">
+		<div class="col-12 baner-section-two">
 			<div class="baner-inside" title="Nowoczesne i profesjonalne strony internetowe">
 				<div class="col-lg-4 col-md-12 col-sm-12 p-0">
 						<p class="our-partners">Nowoczesne strony internetowe</p>
-						<h1 class="font-kenit"><span class="one-letter">P</span>rofesjonalne strony intern<span class="one-letter">e</span>towe</h1>
+						<h1 class="font-kenit">Proje<span class="one-letter">k</span>tujemy i tworzymy strony <span class="one-letter">w</span>ww </h1>
 				</div>
 		</div>
 	</div>
@@ -52,56 +52,60 @@
 			<div class="center-content my-auto">
 			 <h2 class="section-title font-kanit"><span class="one-letter">T</span>worzenie stron www <span class="one-letter">p</span>rzyjaznych wyszukiwarce <strong><span style="color: #4285f4;">G</span><span style="color: #d62d20;">o</span><span style="color: #ffa700;">o</span><span style="color: #4285f4;">g</span><span style="color: #008744;">l</span><span style="color: #d62d20;">e</span></strong></h2>
 			 <p class="pl-3 pr-3  font-merriweather">
-				 Intuicyjna, prosta w obsłudze, dopasowująca się do szerokości ekranów urządzeń mobilnych oraz odpowiednio zoptymalizowana pod wyszukiwarki. To tylko niektóre z cech, które powinna posiadać dobrze przemyślana i wykonana <Strong>strona internetowa</strong>.
-				 Strona www to szczzególne miejsce, które odwiedzają Państwa potencjalni klienci, warto więc zadbać aby pierwsze wrażenie po wejściu na stronę było jak najlepsze!
-			</p>
+				 Intuicyjna, prosta w obsłudze, dopasowująca się do szerokości ekranów urządzeń mobilnych oraz odpowiednio zoptymalizowana pod wyszukiwarki. Te i wiele innych cech powinna posiadać dobrze przemyślana i stworzona <strong>strona internetowa</strong>.
+				 Strona www to szczególne miejsce, odwiedzane przez Państwa potencjalnych klientów. Pierwsze wrażenie można wywrzeć tylko raz, dlatego warto zadbać aby było ono jak najlepsze!
+			 </p>
 		</div>
 	 </div>
 
-	<!-- About-->
+	<!--=== Timeline Section ===-->
 	<section class="page-section" id="about">
 			<div class="container">
-					<div class="text-center">
-							<h2 class="section-title font-kanit"><span class="one-letter">D</span>laczego warto zlecić nam <span class="one-letter">s</span>tworzenie strony internetowej?</h2>
-							<p class="pl-3 pr-3  font-merriweather">Intuicyjna, prosta w obsłudze, dopasowująca się do szerokości ekranów urządzeń mobilnych oraz odpowiednio zoptymalizowana pod wyszukiwarki. To tylko niektóre z cech, które powinna posiadać dobrze przemyślana i wykonana <Strong>strona internetowa</strong>.
-							Strona www to szczzególne miejsce, które odwiedzają Państwa potencjalni klienci, warto więc zadbać aby pierwsze wrażenie po wejściu na stronę było jak najlepsze!</p>
-					</div>
-					<ul class="timeline">
+				<div class="text-center">
+						<h2 class="section-title font-kanit"><span class="one-letter">D</span>laczego warto zlecić nam <span class="one-letter">s</span>tworzenie strony internetowej?</h2>
+						<p class="pl-3 pr-3  font-merriweather">Tworzenie stron internetowych zawsze zaczynamy od poznania potrzeb naszych klientów. Na tym etapie doradzamy jakie rozwiązanie będzie najlepiej odpowiadało potrzebom klienta. Posiadamy doświadczenie, które pozwala nam tworzyć nowoczesne i funkcjonalne strony www. Klienci, którzy skorzystają z naszych usług otrzymują w pełni spersonalizowaną i zoptymalizowaną stronę internetową.</p>
+				</div>
+					<ul class="timeline my-4">
 							<li>
-									<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="" /></div>
+								<div class="timeline-image intro-banner-vdo-play-btn dotBg"><span class="ripple dotBg"></span><span class="ripple dotBg"></span><span class="ripple dotBg"></span></div>
 									<div class="timeline-panel">
 											<div class="timeline-heading">
 													<h3 class="section-title font-kanit pl-0">Nowoczesny desgin strony www</h3>
 											</div>
-											<div class="timeline-body"><p class="font-merriweather">Ustalone na początku wytyczne dotyczące wyglądu witryny, typografi i kolorystyki zapewnią jej unikalny i nowoczesny charakter.</p></div>
+											<div class="timeline-body">
+												<p class="font-merriweather">Nowoczesny design i unikalny charakter to coś co wyróżni twoją stronę internetową spośród innych. Przed stworzeniem nowej strony ustalamy typografię, kolorystkę oraz wytyczne dotyczące wyglądu całej witryny.
+												</p>
+											</div>
 									</div>
 							</li>
 							<li class="timeline-inverted">
-									<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="" /></div>
+									<div class="timeline-image intro-banner-vdo-play-btn dotBg"><span class="ripple dotBg"></span><span class="ripple dotBg"></span><span class="ripple dotBg"></span></div>
 									<div class="timeline-panel">
 											<div class="timeline-heading">
 													<h3 class="section-title font-kanit pl-0">Responsywna strona internetowa</h3>
 											</div>
-											<div class="timeline-body"><p class="font-merriweather">Ponad 50% odsłon stron internetowych pochodzi z urządzeń mobilnych. Dlatego właśnie tak ważne jest aby twoja strona poprawnie dopasowywała się na urządzeniach o różnych szerokościach ekranów. Tworząc nasze strony internetowe stawiamy na to ogromny nacisk!</p></div>
+											<div class="timeline-body"><p class="font-merriweather">Ponad 50% odsłon stron internetowych to ruch pochodzący z urządzeń mobilnych. Algorytmy Google sprawdzają responsywność witryny, która jest ważnym czynnikiem wpływającym na pozycjonowanie strony. Dlatego stawiamy duży nacisk aby każda nasza witryna odpowiednio dopasowywała się do urządzeń mobilnych.</p></div>
 									</div>
 							</li>
 							<li>
-									<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="" /></div>
+								<div class="timeline-image intro-banner-vdo-play-btn dotBg"><span class="ripple dotBg"></span><span class="ripple dotBg"></span><span class="ripple dotBg"></span></div>
 									<div class="timeline-panel">
 											<div class="timeline-heading">
 													<h3 class="section-title font-kanit pl-0">Zgodność z wymogami SEO</h3>
 											</div>
-											<div class="timeline-body"><p class="font-merriweather">Tworzone przez nas <Strong>strony www</strong> zawsze są zgodne z najlepszymi praktykami i wymogami Search Engine Optimization. Dzięki temu witryny dobrze się pozycjonują i osiągają wysokie pozycje w wynikach wyszukiwania. Zajmujemy się także optymalizacją istniejących stron internetowych.
-</p></div>
+											<div class="timeline-body">
+												<p class="font-merriweather">Tworzymy <Strong>strony www</strong> zgodnie z najlepszymi praktykami i wymogami SEO. Osiąganie wysokich pozycji w wynikach wyszukiwania to wtedy tylko kwestia czasu i zaangażowania. Zajmujemy się także optymalizacją istniejących stron internetowych.
+												</p>
+											</div>
 									</div>
 							</li>
 							<li class="timeline-inverted">
-									<div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="" /></div>
+								<div class="timeline-image intro-banner-vdo-play-btn dotBg"><span class="ripple dotBg"></span><span class="ripple dotBg"></span><span class="ripple dotBg"></span></div>
 									<div class="timeline-panel">
 											<div class="timeline-heading">
 													<h3 class="section-title font-kanit pl-0">Pomoc i wspracie techniczne</h3>
 											</div>
-											<div class="timeline-body"><p class="font-merriweather">Wspieramy i doradzamy naszym klientom w doborze najlepszych rozwiązań odpowiednich do ich potrzeb.</p></div>
+											<div class="timeline-body"><p class="font-merriweather">Wspieramy i doradzamy w sprawach dotyczących stron internetowych i pozycjonowania. Zapewniamy pomoc techniczną nie tylko naszym klientom ale również wszystkim, którzy mają problem ze swoją stroną internetową.</p></div>
 									</div>
 							</li>
 					</ul>
@@ -109,10 +113,10 @@
 	</section>
 	</div>
  </div> <!-- === Main Section End === -->
-
+</div><!-- === Container End === -->
 
 	<!-- === Contact Section === -->
-		<div class="row m-0">
+			<div class="row m-0">
 			<div class="col-12 contact-line" id="kontakt">
 				<div class="row">
 						<div class="col-sm-12 col-md-6 ">
@@ -128,7 +132,7 @@
 				</div>
 			</div>
 		</div>
-</div><!-- === Container End === -->
+
 <?php
 include_once "includes/footer-inc.php";
 include_once "includes/cookies-inc.php";

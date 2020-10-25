@@ -23,9 +23,9 @@
           <li class="nav-item dropdown show">
             <a class="nav-link dropdown-toggle" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">OFERTA</a>
 			  <ul class="dropdown-menu " aria-labelledby="dropdownMenuLink">
-          <li itemprop="name"><a itemprop="url" class="dropdown-item" href="strony-internetowe" title="Profesjonalne tworzenie stron internetowych">Strony internetowe</a></li>
+          <li itemprop="name"><a itemprop="url" class="dropdown-item" href="/strony-internetowe" title="Profesjonalne tworzenie stron internetowych">Strony internetowe</a></li>
           <li itemprop="name"><a itemprop="url" class="dropdown-item" href="#" title="Kodowanie szablonów mailingowych">Kodowanie mailingów reklamowych</a></li>
-          <li itemprop="name"><a itemprop="url" class="dropdown-item" href="#" title="Optymalizacja i pozycjonowanie stron internetowych">Optymalizacja i pozycjonowanie stron</a></li>
+          <li itemprop="name"><a itemprop="url" class="dropdown-item" href="/pozycjonowanie-stron-internetowych" title="Optymalizacja i pozycjonowanie stron internetowych">Optymalizacja i pozycjonowanie stron</a></li>
         </ul>
           </li>
           <li class="nav-item" itemprop="name" >
