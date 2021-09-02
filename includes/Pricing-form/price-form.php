@@ -2,11 +2,12 @@
 session_start();
 
           if($_SERVER['REQUEST_METHOD'] != 'POST') {
+            $_SESSION['msg_error'] = "Błąd";
             header('Location: /koszt-strony-internetowej');
 	          exit();
           } else {
               $captcha = $_POST['g-recaptcha-response'];
-              $privatekey = "6LcVG7YZAAAAAD6DK6irW1JEaruAeZXwpQREDmZG";
+              $privatekey = "6Le-RqEbAAAAAOdjqfZTimEKLNrirwqWO10zRniK";
               $url = 'https://www.google.com/recaptcha/api/siteverify';
               $data = array(
                   'secret' => $privatekey,
@@ -63,32 +64,32 @@ session_start();
   				try {
   				   //Server settings
   				    $mail->isSMTP();                                            // Send using SMTP
-  				    $mail->Host       = 'smtp.gmail.com';                       // Set the SMTP server to send through
+  				    $mail->Host       = 'mail.fitbox.com.pl';                       // Set the SMTP server to send through
   				    $mail->SMTPAuth   = true;
   						//$mail->SMTPSecure = 'tls';                         // Enable SMTP authentication
-  				    $mail->Username   = 'office.rbcode@gmail.com';               // SMTP username
-  				    $mail->Password   = 'Robson1988@#';
+  				    $mail->Username   = 'fitbox@fitbox.com.pl';               // SMTP username
+  				    $mail->Password   = 'Lbu7QKLcgYDLF8H7';
   						$mail->CharSet 		= "UTF-8";                     // SMTP password
   				    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
   				    $mail->Port       = 587;                                    // TCP port to connect to
 
   				    //Recipients
-  				    $mail->setFrom('office.rbcode@gmail.com', 'Profesjonalne strony internetowe | Rbcode.pl');
-  				    $mail->addAddress('office.rbcode@gmail.com');   			    // Add a recipient
-  				    $mail->addReplyTo($email, $name);
+  				    $mail->setFrom('office@rbcode.pl', 'RBcode');
+  				    $mail->addAddress($email);   			    // Add a recipient
+  				    $mail->addReplyTo('office.rbcode@gmail.com', 'RBcode');
 
   				    // Content
   				    $mail->isHTML(true);                                       // Set email format to HTML
-  				    $mail->Subject = 'Rbcode.pl - '.$subject;
+  				    $mail->Subject = 'Zapytanie ze strony RBcode: '.$subject;
   						$mail->MsgHTML($customerMessage);
   				    $mail->Send();
 
               //Drugi szablon email dla klienta
-              //$mail->ClearAllRecipients();
-              //$mail->MsgHTML($adminMessage);
+              $mail->ClearAllRecipients();
+              $mail->MsgHTML($customerMessage);
               // Add the admin address
-              //$mail->AddAddress('office.rbcode@gmail.com');
-              //$mail->Send();
+              $mail->AddAddress('office.rbcode@gmail.com');
+              $mail->Send();
 
 
   							$_SESSION['msg_success'] = 'Twoja wiadomość została wysłana. Wkrótce skontaktujemy się z Tobą.';

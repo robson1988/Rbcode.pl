@@ -8,7 +8,7 @@
         <h6>Ta strona wykorzystuje pliki cookie</h6>
       </div>
       <div class="modal-body">
-        <img src="/images/cookie.png" class="cookie-img" title="Ciasteczka z czekoladą" alt="Ciasteczka ułożone w stos">
+        <img src="/images/cookie.webp" class="cookie-img" title="Ciasteczka z czekoladą" alt="Ciasteczka ułożone w stos">
         <p>Używamy informacji zapisanych za pomocą plików cookies w celu zapewnienia maksymalnej wygody w korzystaniu z naszego serwisu. Klikając "Akceptuję" wyrażasz zgodę na ich użycie. <br>Szczegółowe informacje dotyczące ciasteczek znajdziesz w <a href="#" title="Polityka prywatności" class="one-letter">Polityce prywatności</a>. Jeśli nie wyrażasz zgody, ustawienia dotyczące plików cookies możesz zmienić w swojej przeglądarce.</p>
       </div>
       <div class="modal-footer flex-center">
