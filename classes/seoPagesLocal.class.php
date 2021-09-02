@@ -1,10 +1,10 @@
 <?php
 
-class Projects extends Dbh {
+class SeoLocalPages extends Dbh {
 
-  protected function getProjects() {
+  protected function getPages() {
 
-    $sql = "SELECT rel_tags, rel_seoTitle, rel_slug, rel_img, rel_url, rel_text FROM realizacje";
+    $sql = "SELECT rel_tags, rel_slug, rel_img, rel_url FROM realizacje ORDER BY RAND() LIMIT 4";
     $stmt = $this->connect()->prepare($sql);
     $stmt->execute();
 
@@ -13,13 +13,13 @@ class Projects extends Dbh {
   }
 
 
-  protected function getOneProject($urlSlug) {
+  protected function getOnePage($urlSlug) {
 
     $urlSlug = trim($urlSlug);
   	$urlSlug = htmlspecialchars($urlSlug, ENT_QUOTES, 'UTF-8');
   	$urlSlug = stripslashes($urlSlug);
 
-    $sql = "SELECT * FROM realizacje WHERE rel_slug = ?";
+    $sql = "SELECT * FROM seo_strony_lokalnie WHERE seo_slug = ?";
     $stmt = $this->connect()->prepare($sql);
     $stmt->execute([$urlSlug]);
 

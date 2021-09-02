@@ -25,7 +25,7 @@ class ProjectsView extends Projects {
 
 
         //skrócenie wyświetlanego tekstu na kafelku
-        $shortText = substr($text,0,250)."...";
+        $shortText = substr($text,0,220)."...";
 
         //podzielenie tagów osobno
         $tag = explode(",", $tags);
@@ -51,7 +51,7 @@ class ProjectsView extends Projects {
 
     $smarty = new SmartyBC();
 
-    $homeUrl = dirname($_SERVER['PHP_SELF']);
+    $homeUrl = dirname($_SERVER);
 
     foreach($results as $result){
 
