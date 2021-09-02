@@ -7,7 +7,7 @@ session_start();
 	          exit();
           } else {
               $captcha = $_POST['g-recaptcha-response'];
-              $privatekey = "6Le-RqEbAAAAAOdjqfZTimEKLNrirwqWO10zRniK";
+              $privatekey = "";
               $url = 'https://www.google.com/recaptcha/api/siteverify';
               $data = array(
                   'secret' => $privatekey,
@@ -64,11 +64,11 @@ session_start();
   				try {
   				   //Server settings
   				    $mail->isSMTP();                                            // Send using SMTP
-  				    $mail->Host       = 'mail.fitbox.com.pl';                       // Set the SMTP server to send through
+  				    $mail->Host       = '';                       // Set the SMTP server to send through
   				    $mail->SMTPAuth   = true;
   						//$mail->SMTPSecure = 'tls';                         // Enable SMTP authentication
-  				    $mail->Username   = 'fitbox@fitbox.com.pl';               // SMTP username
-  				    $mail->Password   = 'Lbu7QKLcgYDLF8H7';
+  				    $mail->Username   = '';               // SMTP username
+  				    $mail->Password   = '';
   						$mail->CharSet 		= "UTF-8";                     // SMTP password
   				    //$mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;         // Enable TLS encryption; `PHPMailer::ENCRYPTION_SMTPS` also accepted
   				    $mail->Port       = 587;                                    // TCP port to connect to
