@@ -1,14 +1,7 @@
 User-agent: *
-Disallow:
+Allow: /
 Disallow: /cgi-bin/
 Disallow: /includes/
 Disallow: /scripts/
-
-User-agent: Googlebot-Image
-Disallow: /
-Allow: /images/seo.png
-Allow: /images/responsive.png
-Allow: /images/Headering3.jpg
-Allow: /images/schema-img.png
 
 Sitemap: https://rbcode.pl/sitemap.xml
