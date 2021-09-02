@@ -7,18 +7,19 @@
 	<title>{$pageTitle}</title>
 	<meta name="description" content="{$pageDescription}">
 	<meta name="keywords" content="{$pageKeywords}">
-	<link rel="canonical" href="https://rbcode.pl/realizacje-stron-internetowych/{$pageSlug}">
+	<link rel="canonical" href="https://rbcode.pl/strony-iternetowe/{$pageSlug}">
 	<meta property="og:title" content="{$pageTitle}">
 	<meta property="og:description" content="{$pageDescription}">
 	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://rbcode.pl/realizacje-stron-internetowych/{$pageSlug}">
-	<meta property="og:image" content="https://rbcode.pl/images/Projekty/{$imageOne}.png">
+	<meta property="og:url" content="https://rbcode.pl/strony-iternetowe/{$pageSlug}">
+	<meta property="og:image" content="https://rbcode.pl/images/schema-img.png">
+	<!----=== Schema ===-->
 	<script type="application/ld+json">
 		{
 			"@context": "https://schema.org/",
 			"@type": "WebPage",
 			"@id": "#WebPage",
-			"url": "https://rbcode.pl/realizacje-stron-internetowych/{$pageSlug}",
+			"url": "https://rbcode.pl/strony-iternetowe/{$pageSlug}",
 			"name": "{$pageTitle}",
 			"description": "{$pageDescription}",
 			"inLanguage": "pl-PL",
@@ -27,8 +28,8 @@
 				"@type": "WebSite",
 				"@id": "#WebSite",
 				"url": "https://rbcode.pl/",
-				"name": "Tworzenie stron internetowych Stalowa Wola. Pozycjonowanie stron Stalowa Wola. Reklama Google Ads i Facebook Ads | Rbcode",
-				"description": "Profesjonalne strony internetowe Stalowa Wola. Pozycjonowanie stron internetowych. Tworzymy nowoczesne i responsywne strony internetowe zoptymalizowane pod wyszukiwarkę Google. Strony internetowe tworzymy zgodnie z najlepszymi praktykami. Nasze strony www są bezpieczne i szybkie. Pozycjonowanie stron internetowych stworzonych przez nas już od początku jest łatwiejsze! Prowadzimy kampanie marketingowe w Google Ads i Facebook Ads. Zapraszamy do kontaktu z nami!",
+				"name": "Sklepy i Strony Internetowe | Pozycjonowanie Stron | Rbcode",
+				"description": "Strony internetowe oraz sklepy internetowe na zamówienie. Indywidualny projekt oraz szybka realizacja. Pozycjonujemy strony www. Daj się poznać z dobrej strony!",
 				"inLanguage": "pl-PL"
 			}
 		}
@@ -83,17 +84,17 @@
 			}, {
 				"@type": "ListItem",
 				"position": 2,
-				"name": "Realizacje stron",
-				"item": "https://rbcode.pl/realizacje-stron-internetowych"
+				"name": "Strony internetowe",
+				"item": "https://rbcode.pl/strony-internetowe"
 			}, {
 				"@type": "ListItem",
 				"position": 3,
 				"name": "{$pageSlug}",
-				"item": "https://rbcode.pl/realizacje-stron-internetowych/{$pageSlug}"
+				"item": "https://rbcode.pl/strony-internetowe/{$pageSlug}"
 			}]
 		}
 	</script>
-	<meta name="author" content="Rbcode.pl">
+	<meta name="author" content="Rbcode">
 	<meta name="robots" content="index, follow">
 	<link rel="preload" href="/css/mycss.css" as="style">
 	<link rel="shortcut icon" href="/images/favicon/favicon.ico" type="image/x-icon">
@@ -167,69 +168,47 @@
 	{/php}
 
 	<!-- === Page Content === -->
-	<div class="container-fluid realization-minus p-0">
-		<div class="container container-start">
-			<h1 class="realization-title font-kanit ml-3">{$pageH1}</h1>
-			<hr class="line">
-			<div class="row pb-5">
-				<div class="col-md-3 col-sm-12 m-auto text-center order-md-1 order-12">
-					<div class="realization-tags d-inline-block mb-3">
-						{foreach $tags as $tag} <small class="text-muted">{$tag}</small> {/foreach}</div>
-					<h2 class="realization-title font-kanit"><a href="https://{$url}" title="{$url}" rel="nofollow noopener" target="_blank">{$url}</a></h2>
-					<p class="realization-text font-merriweather">{$textOne}</p>
-				</div>
-
-				<div class="col-md-9 col-sm-12 pb-2 order-md-12 order-1">
-					<img src="https://rbcode.pl/images/Projekty/{$imageOne}.webp" class="realization-img img-fluid lazyload" alt="{$imageOne}" title="{$imageOne}">
+	<div class="container-fluid p-0 pb-sm-0">
+		<!-- === Banner Section  === -->
+		<div class="row m-0">
+			<div class="col-12 baner-image">
+				<div class="baner-inside">
+					<div class="col-lg-4 col-md-12 col-sm-12 p-0">
+						<p class="our-partners"><span style="text-transform:capitalize;">{$pageH1}</span></p>
+						<h1 class="font-kenit"><span class="one-letter">S</span>trony internetowe <span style="text-transform:uppercase;">{$pageH1}</span></h1>
+					</div>
 				</div>
 			</div>
+		</div> <!-- === Banner Section End === -->
 
-			<div class="row pt-lg-5 pb-lg-5 pt-sm-1 pb-sm-1">
-				<div class="col-md-6 col-sm-12 pr-lg-5">
-					<img src="/images/Projekty/{$imageTwo}.webp" class="img-fluid drop-shadow lazyload" alt="{$imageTwo}" title="{$imageTwo}">
+		<!-- <div class="col-md-12 col-sm-12 pb-2 p-0">
+			<img src="https://{php} echo $_SERVER['HTTP_HOST'];{/php}/images/Seo/{$imageOne}.webp" class="img-fluid baner-image lazyload" alt="{$imageOne}" title="{$imageOne}">
+		</div> -->
+		<div class="container city-page pb-0">
+			<div class="row m-0 p-0 pb-0">
+				<div class="col-sm-12 p-0 m-auto">
+					<p class="realization-text font-merriweather p-3">{$textOne}</p>
 				</div>
+			</div>
+			<div class="row mb-3 p-0 m-0">
+				{php}
 
-				<div class="col-md-6 col-sm-12 m-auto pl-lg-5 text-center">
-					<div class="row">
-						<div class="col-12 pt-4">
-							<h3 class="realization-title font-kanit">{$titleText2}</h3>
-							<div class="realization-text pb-4 font-merriweather">{$textTwo}</div>
-						</div>
+				$showObject = new SeoLocalPagesView();
+				$showObject->showPages();
 
-						<div class="col-12">
-							<img src="/images/Projekty/{$imageThree}.webp" class="img-fluid drop-shadow lazyload" alt="{$imageThree}" title="{$imageThree}">
-						</div>
-
-					</div>
-				</div>
-
-				<div class="col-md-8 col-sm-9 m-auto pr-lg-5 pt-5">
-					<div class="row">
-						<div class="col-12 pb-4">
-							<div class="realization-text font-merriweather">{$textThree}</div>
-						</div>
-
-						<div class="col-12">
-							<img src="/images/Projekty/{$imageFour}.webp" class="img-fluid drop-shadow lazyload" alt="{$imageFour}" title="{$imageFour}">
-						</div>
-
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-3 pl-lg-5">
-					<img src="/images/Projekty/{$imageFive}.webp" class="realization-img img-fluid lazyload" alt="{$imageFive}" title="{$imageFive}">
-				</div>
+				{/php}
 			</div>
 
 		</div><!-- === Container End === -->
 
 		<!-- === Contact Section === -->
-		<div class="row m-0 pt-5">
+		<div class="row m-0 pb-md-5 pb-sm-0">
 			<div class="col-12 form-section">
-				<div class="d-flex justify-content-center mt-3 mb-1">
-					<p>Chcesz zwiększyć widoczność swojej strony w Google? Chętnie pomogę! Sprawdź moją ofertę</p>
+				<div class="d-flex justify-content-center mt-md-5 mb-1">
+					<p>Potrzebujesz stronę internetową? Chcesz zwiększyć widoczność swojej strony w Google? Sprawdź moją ofertę!</p>
 				</div>
 				<div class="row d-flex justify-content-center">
-					<a href="/strony-internetowe" title="Strony internetowe Stalowa Wola" class="btn btn-call-to-action btn-lg m-2">Strony internetowe &raquo;</a>
+					<a href="/strony-internetowe" title="Strony internetowe " class="btn btn-call-to-action btn-lg m-2">Strony internetowe &raquo;</a>
 					<a href="/pozycjonowanie-stron-internetowych" title="Pozycjonowanie stron" class="btn btn-call-to-action btn-lg m-2">Pozycjonowanie &raquo;</a>
 				</div>
 			</div>
@@ -248,4 +227,87 @@
 				</div>
 			</div>
 		</div>
+
+	<div class="container city-page-two mb-md-3 mb-sm-0 pt-3">
+			<div class=" col-sm-12 m-auto text-left">
+				<div class="row">
+					<div class="col-12">
+						<h2 class="section-title font-kanit">{$titleText2}</h2>
+						<hr class="line">
+						<div class="realization-text pb-4 font-merriweather p-3">{$textTwo}</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		{php}
+
+		$advert = new ShowAdverts();
+		$advert->showAvailableAdverts();
+
+		{/php}
+
+	<div class="container city-page-two mb-md-5 mb-sm-0 pt-3">
+		<div class="row m-0">
+		 <div class="col-sm-12 mb-2 p-0">
+			 <div class="center-content my-auto p-3">
+				<h3 class="section-title font-kanit ">Na co sta<span class="one-letter">w</span>iamy nacisk w naszych proje<span class="one-letter">k</span>tach</h3>
+				<hr class="line">
+			 </div>
+		 </div>
+		</div>
+		<div class="row m-0">
+				<div class="col-md-3 col-sm-6">
+						<div class="serviceBox">
+								<div class="service-icon">
+										<img data-src="https://{php} echo $_SERVER['HTTP_HOST'];{/php}/images/code-solid.svg" class="lazyload" style="width:50px;" alt="Kod źródłowy" title="Lekki kod strony www">
+								</div>
+								<h3 class="title font-kanit">Lekki kod źródłowy</h3>
+						</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+						<div class="serviceBox">
+								<div class="service-icon">
+									<a href="https://www.w3.org/" target="_blank" rel="nofollow noopener" title="Strona W3C">
+										<p class="test">W3C</p>
+									</a>
+								</div>
+								<h3 class="title font-kanit">Zgodność z standardami W3C</h3>
+						</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+						<div class="serviceBox">
+								<div class="service-icon">
+										<img data-src="https://{php} echo $_SERVER['HTTP_HOST'];{/php}/images/tachometer-alt-solid.svg" class="lazyload" style="width:60px;" alt="Szybkie ładowanie" title="Szybkie strony www">
+
+								</div>
+								<h3 class="title font-kanit">Szybkość ładowania</h3>
+						</div>
+				</div>
+				<div class="col-md-3 col-sm-6">
+						<div class="serviceBox">
+								<div class="service-icon">
+										<img src="https://{php} echo $_SERVER['HTTP_HOST'];{/php}/images/mobile-alt-solid.svg" class="lazyload" style="width:40px;" alt="Responsywność" title="Responsywne strony www">
+								</div>
+								<h3 class="title font-kanit">Responsywność stron</h3>
+						</div>
+				</div>
+		</div>
+			<div class="row m-0">
+				<div class="col-sm-12 m-auto text-left">
+					<div class="realization-text font-merriweather p-3">Jeśli są Państwo zainteresowani naszymi usługami zapraszamy do kontaktu z nami w celu ustalenia szczegółów dotyczących stworzenia strony internetowej. <strong><span style="text-transform:capitalize;">{$pageH1}</span></strong> i okolice to nasz teren na którym działamy. Jeśli będzie taka potrzeba chętnie spotkamy się osobiście!</div>
+				</div>
+			</div>
+
+			<div class="row m-0">
+				<div class="col-sm-12 m-auto call-to-action">
+					<img src="https://{php} echo $_SERVER['HTTP_HOST'];{/php}/images/Seo/strony-internetowe.webp" class="img-fluid lazyload" alt="Strony internetowe {$pageH1} i okolice" title="Strony internetowe {$pageH1}">
+					<div class="form-section call-to-action-form">
+						<div class="d-flex justify-content-center mt-md-5 md-sm-0 mb-2">
+							<p>Potrzebujesz strony internetowej lub chcesz poprawić jakość działania swojej istniejącej strony? Napisz do nas a na pewno pomożemy!</p>
+						</div>
+						<button class="btn call-to-action-btn-form btn-lg mx-auto" aria-label="Napisz do nas" data-toggle="modal" data-target="#myModal">Napisz do nas &raquo;</button>
+					</div>
+			</div>
 	</div>
+</div>
